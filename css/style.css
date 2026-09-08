@@ -1,0 +1,555 @@
+ /* all common css start */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif !important;
+}
+
+ul,ol,dl{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+    line-height:1.4;
+}
+     /* all common css end */
+     /* navbar start */
+.navbar{
+   position: absolute !important;
+   z-index: 2 !important;
+   width: 100%;
+   top: 0;
+   left: 0;
+   align-items: center !important;
+     margin-top: 26px !important; 
+}
+.navbar-nav {
+    gap: 45px;
+  
+   
+}
+.nav-item .nav-link{
+    font-size:16px !important;
+    font-weight:500 !important ;
+    color:#1B1B1B !important;
+     transition: all linear 0.3s;
+
+}
+.nav-item .nav-link:hover{
+
+    color: #06C279 !important;
+    transition: all linear 0.3s;
+}
+.nav_btn{
+    padding: 14.5px 25px;
+    font-size:16px ;
+    font-weight: 600;
+    color: white;
+    background-color: #06C279;
+    border: none;
+    border-radius: 5px;
+}
+              /* navbar end */
+         /* banner part start */
+#banner{
+    position: relative !important;
+    background:#EEFFF9 !important;
+    z-index: 0 !important;
+    padding: 250px 0;
+    padding-top: 120px;
+    height: 660px;
+    margin-bottom: 100px;
+}
+.banner_content{
+    margin-top: 90px;
+}
+.banner_content h1{
+    font-size:60px ;
+    font-weight:300 ;
+    color:#1B1B1B;
+    max-width:526px ;
+    
+}
+.banner_content h1 span{
+    font-weight: 700;
+}
+ 
+.banner_content .bannerp{
+    margin-top:37px ;
+    margin-bottom:51px ;
+    font-size:20px ;
+    font-weight:400 ;
+    color: #717171;
+    max-width:511PX ;
+}
+.banner_btn_circle{
+    height:20px ;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #DAF6EB;
+   
+}
+.banner_btn{
+    display: flex;
+    gap: 10px;
+     padding: 15px 25px;
+    border: 2px solid #06C279;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.banner_btn_circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannerBtn{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+           /* banner part end */
+
+    /* experience part start */
+    #experience{
+        padding-top: 85px;
+        padding-bottom: 100px;
+    }
+    .experience_content h2{
+        font-size: 45px;
+        font-weight: 600;
+        color: #1B1B1B;
+        max-width: 445px;
+        margin-bottom: 29px;
+    }
+    .exper-p{
+         font-size: 16px;
+        font-weight: 400;
+        color: #7B7B7B;
+        max-width:550px;
+        margin-bottom:45px;
+    }
+    #experi_brn{
+        padding: 15px 25px;
+        border: none;
+        background-color: #DAF6EB;
+        border-radius: 5px;
+        color: #06C279;
+        font-size: 16px;
+        font-weight: 600;
+    }
+     /* experience part end */
+     /* service part start */
+    #service{
+     background-color: #EEFFF9;
+     height: 957px;
+     border-top-left-radius: 350px;
+     border-bottom-right-radius: 350px;
+    }
+    .coursewrape{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 203px;
+     
+    }
+    .courses{
+        height:322px ;
+        width: 312px;
+        background: white;
+        border-radius: 10px;
+        padding: 42px 40px 40px 60px;
+        box-shadow:0px 0px 20px 2px rgba(0, 0, 0, 0.05) ;
+          transition: all linear 0.3s;
+    }
+    .courses:hover{
+       
+        background-color: rgba(6, 194, 122, 0.615);
+          transition: all linear 0.3s;
+
+    }
+    .courses:hover.courses h4 , .courses:hover.courses p {
+        color: white !important;
+          transition: all linear 0.3s;
+    }
+    .courses:hover .courseimg svg path{
+        fill: white;
+          transition: all linear 0.3s;
+
+      }
+    .courses h4{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30%;
+        color: #1B1B1B;
+        margin-top: 20px;
+        margin-bottom:30px;
+          transition: all linear 0.3s;
+    }
+     .courses p{
+        font-size: 16px;
+        font-weight: 400;
+       color: #7B7B7B;
+         transition: all linear 0.3s;
+       
+     }
+    .coursewrapetwo{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 70px;
+    }
+    .courseimg svg path{
+       fill:#06C279;
+         transition: all linear 0.3s;
+    }
+    .courseimg{
+        margin-bottom: 15px;
+       
+
+    }
+    .service_content {
+        margin-left: 113px;
+    }
+    .service_content h2{
+        margin-top: 335px;
+       font-size: 45px;
+       font-weight: 600;
+       color: #1B1B1B;
+       margin-bottom: 30px;
+    }
+    .service_content p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #7B7B7B;
+        margin-bottom: 30px;
+        max-width: 543px;
+    }
+    .service_btn{
+        font-size:16px ;
+        font-weight: 600;
+        color:#06C279 ;
+        background-color:#DAF6EB ;
+        padding: 14.5px 25px;
+        border: none;
+        border-radius: 5px;
+        
+    }
+     /* service part end  */
+       /* project part start  */
+       #project{
+        padding-top: 91px;
+        padding-bottom: 100px;
+       }
+       .projectingheading h2{
+        font-size: 45px;
+        font-weight:600 ;
+        color:#1B1B1B;
+        text-align: center;
+        margin-bottom: 33px;
+       }
+   .projectmenu{
+        text-align: center;
+        margin: 0 auto;
+       border-bottom: 4px solid #CECECE;
+      
+       margin-bottom: 53px;
+
+
+    }
+  
+     .menudesign{
+        text-align: center;
+         margin-bottom: 21px;
+      
+          position: relative;
+       
+        
+        
+       }
+    .menudesign::after{
+        height: 4px;
+        content: "";
+        position: absolute;
+        width: 140px;
+        background-color: transparent;
+        bottom: -24px;
+        left: 50%;
+        transform: translate(-50%);
+         transition: all linear 0.3s;
+
+    }
+       
+      
+       
+    .menudesign{
+          font-size: 16px;
+          font-weight: 500;
+          color: #7B7B7B;
+        transition: all linear 0.3s;
+          
+       }
+    .menudesign:hover{
+        color: #06C279;
+        transition: all linear 0.3s;
+
+    }
+     .menudesign:hover::after{
+        background-color: #06C279;
+         transition: all linear 0.3s;
+     }
+   
+    .project_card_wrapper h4{
+        font-size: 22px;
+        font-weight: 600;
+       
+        color: #1B1B1B;
+        text-align: center;
+        margin-bottom:7px ;
+    }
+    .project_card_wrapper p{
+
+         font-size: 16px;
+        font-weight: 640;
+       
+        color: #7B7B7B;
+        text-align: center;
+        width: 344px;
+        margin: 0 auto;
+        opacity: 80%;
+       
+     }
+    .project_btn{
+        font-size: 16px;
+        font-weight:600 ;
+        color:white ;
+        background-color:#06C279 ;
+        border: none;
+        padding: 14.5px 25px;
+        border-radius: 5px;
+
+    }
+    .pbtn{
+        text-align: center;
+        margin-top: 32px;
+    }
+       
+
+      /* project part end */
+
+       /* promossion part start */
+       #promossion{
+         background:#EEFFF9 !important;
+         height: 753px;
+         border-top-left-radius: 300px;
+         border-bottom-right-radius:300px;
+         padding-top: 70px;
+         padding-bottom: 78px;
+       }
+       .promossion_content h3{
+        margin-top: 203px;
+        font-size: 45px ;
+        font-weight: 600;
+        color: #1B1B1B;
+        line-height: 54px;
+         max-width: 457px;
+         margin-bottom: 20px;
+       }
+       .promossion_content p{
+        font-size: 18px ;
+        font-weight: 400;
+        color: #7B7B7B;
+        line-height: 26px;
+         max-width: 543px;
+         margin-bottom: 31px;
+       }
+       .promossion_btn{
+        font-size:16px ;
+        font-weight:600;
+        color:white ;
+        background-color:#06C279 ;
+        padding:14.5px 25px ;
+        border-radius:5px ;
+        border:none ;
+       }
+       .promossionbox{
+        height:235px ;
+        width:261px ;
+        background-color: white;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.05);
+        border-radius: 15px;
+        text-align: center;
+        padding: 40px 60px 42px 60px;
+         transition: all linear 0.3s;
+       }
+       .promoimg{
+        margin-bottom:15px ;
+       }
+       .promossionbox h5{
+        margin-bottom: 5px;
+         font-size: 20px;
+        font-weight: 600;
+        color: #1B1B1B;
+         transition: all linear 0.3s;
+
+       }
+        .promossionbox h4{
+            font-size: 30px;
+            font-weight: 600;
+            color: #1B1B1B;
+             transition: all linear 0.3s;
+        }
+
+       .promossionbox:hover{
+        background-color: #7AE0B9;
+         transition: all linear 0.3s;
+       }
+        
+       .promossionbox:hover .promoimg svg path{
+        fill: #fff;
+        transition: all linear 0.3s;
+
+       }
+        
+       .promossionbox:hover h4, .promossionbox:hover h5 {
+        color: white;
+        transition: all linear 0.3s;
+       }
+        
+       
+       .promossionboxwrappertwo{
+        margin-top: 95px;
+       }
+       .promoimg svg path{
+        fill: #06C279;
+       }
+        /* promossion part end */
+        /* client review part start */
+       #cllientsreview{
+        padding-top: 94px;
+        padding-bottom: 100px;
+       }
+       .reviewtitle h2{
+        font-size:45px;
+        font-weight: 600;
+        color:#1B1B1B ;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 48px;
+       }
+     .reviewcard {
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.05);
+        border: 2px solid rgba(123, 123, 123, 0.116);
+        padding-bottom: 44px;
+        padding-top: 59px;
+       }
+    .reviewcard h5{
+        font-size:24px ;
+        font-weight: 600;
+        color:#1B1B1B;
+        margin-top: 15px;
+        margin-bottom:4px;
+    }
+    .fivestar{
+        margin-bottom: 20px;
+    }
+ .reviewcard p{
+        font-size:16px ;
+        font-weight:400;
+        color:#7B7B7B;
+        max-width:310px ;
+        margin: 0 auto 15px auto;
+
+
+ }
+  .reviewcard h6{
+        font-size:18px;
+        font-weight: 600;
+        color:#1B1B1B;
+        margin-bottom: 5px;
+        
+       
+  }
+  
+  
+  .seller{
+        font-size:14px;
+        font-weight:400;
+        color:#7B7B7B;
+       
+       
+  }
+  .scroll{
+    height:10px;
+    width:35px;
+    border-radius: 50px;
+    background-color:#D7D7D7;
+   
+  }
+  .scrollerwraper{
+    display: flex;
+    gap: 13px;
+    margin-top: 46px;
+    justify-content: center;
+  }
+  .active{
+    background-color: #06C279;
+  }
+    /* /* client review part end */
+      /* trial part start  */
+      #trial{
+        padding-top: 86px;
+        /* padding-bottom:85px; */
+        background-color: #06C279;
+        ;
+       
+      }
+      .trial_heading_wrape{
+        margin-bottom: 36px;
+        
+       
+      }
+      .trial_heading_wrape h3{
+        font-size:45px ;
+        font-weight:600 ;
+        color:#fff ;
+        max-width: 828px;
+
+      }
+      .trail_btn{
+        font-size:16px ;
+        font-weight:600;
+        color:white;
+        background-color:#2F2F2F ;
+        padding:14.5px 25px ;
+        border-radius:5px ;
+        border: none;
+        margin-bottom:65px;
+      }
+      
+      .trialwrap{
+          position: relative
+      }
+      .trial_lady{
+        position: absolute;
+        bottom: -15px;
+        right: 0;
+      }
+
+        /* trial part end */
+        /* footer part start */
+        footer{
+            padding-top: 100px;
+        }
+     /* footer part end */
