@@ -3,11 +3,13 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: "Lato", sans-serif !important;
+    font-family: "Lato", sans-serif ;
 }
 
 ul,ol,dl{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -88,11 +90,9 @@ h1,h2,h3,h4,h5,h6,p{
     color: #717171;
     max-width:511PX ;
 }
-.banner_btn_circle{
-    height:20px ;
-    width: 20px;
-    border-radius: 50%;
-    background-color: #DAF6EB;
+.banner_btn_circle i{
+    font-size: 25px;
+    color: #06C279;
    
 }
 .banner_btn{
@@ -552,4 +552,87 @@ h1,h2,h3,h4,h5,h6,p{
         footer{
             padding-top: 100px;
         }
+        .footericon{
+            height: 28.7px;
+            width: 28.7px;
+            background-color:#06C279 ;
+            color:#fff ;
+           
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footeremail{
+            margin-top:26px;
+            font-size:14px ;
+            font-weight:400 ;
+            color:#7B7B7B
+        }
+        .fotterno{
+            margin-top: 4px;
+            font-size:14px ;
+            font-weight:400 ;
+            color:#7B7B7B ;
+        }
+        .iconwraper{
+            display: flex;
+            gap: 7.41px;
+            margin-top: 20px;
+        }
+        .footerservice h5{
+            font-size:20px;
+            font-weight:600 ;
+            color:#1B1B1B ;
+            margin-bottom:25px ;
+            
+        }
+    .footerul li a{
+       font-size:14px;
+       font-weight:400;
+       color:#7B7B7B ;
+    }
+    .footerul{
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+    }
+    .fotterinput{
+        border:2px solid #DDDDDD ;
+        padding: 13px 229px 13px 15px;
+        border-radius: 5px;
+    }
+    .fotterinput::placeholder{
+        font-size:14px ;
+        font-weight:400 ;
+        color:#BDBDBD ;
+        
+    }
+    .footer_btn{
+        font-size:16px ;
+        font-weight: 600;
+        color: #ffffff;
+        background-color:#06C279 ;
+        border:none ;
+        border-radius:5px ;
+        padding:14.5px 25px ;
+        margin-top: 27px;
+    }
+    .footerline{
+        margin-top: 42px;
+        width: 100%;
+        height: 2px;
+        background-color:#E0E0E0;
+        margin-bottom: 13px;
+    }
+    .copyright{
+        font-size:14px;
+        font-weight:400;
+        color: #7B7B7B;
+       
+    }
+    .copywraper{
+        text-align: center;
+        margin-bottom: 14px;
+    }
      /* footer part end */
